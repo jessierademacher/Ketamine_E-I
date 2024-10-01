@@ -1,6 +1,7 @@
 # Ketamine_E-I
 
-This repository contains the scripts for the analysis of gamma-band and aperiodic slope alterations after sub-anesthetic Ketamine administration in 12 healthy volunteers, including the analysis of MEG data and computational modeling using a human cortical layer 2/3 model based on Yao et al. (2022):
+This repository contains the scripts for the analysis of gamma-band and aperiodic slope alterations after sub-anesthetic Ketamine administration in 12 healthy volunteers, including the analysis of MEG data and computational modeling using a human cortical layer 2/3 model based on Yao et al. (2022), code available via:  https://doi.org/10.5281/zenodo.5771000.
+
 Yao, H. K., Guet-McCreight, A., Mazza, F., Chameh, H. M., Prevot, T. D., Griffiths, J. D., ... & Hay, E. (2022). Reduced inhibition in depression impairs stimulus processing in human cortical microcircuits. Cell reports, 38(2).
 
 # Short explanation of scripts:
