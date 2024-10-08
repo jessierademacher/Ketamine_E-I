@@ -1,0 +1,13 @@
+#!/bin/sh
+if test "x${NRNHOME}" = "x" ; then
+    NRNHOME="/mnt/antares_raid/home/jessier/miniconda/envs/layer23/lib/python3.7/site-packages/neuron/.data"
+fi
+if test "x${NRNBIN}" = "x" ; then
+    NRNBIN="/mnt/antares_raid/home/jessier/miniconda/envs/layer23/bin"
+fi
+if test "" = "yes" ; then
+    NRNIV="${NRNBIN}/nrniv.app/Contents/MacOS/nrniv"
+else
+    NRNIV="${NRNBIN}/nrniv"
+fi
+"${NRNIV}" -dll "/mnt/antares_raid/home/jessier/layer23_ketamine/code/Ketamine_SST_20/mod/x86_64/.libs/libnrnmech.so" "$@"
